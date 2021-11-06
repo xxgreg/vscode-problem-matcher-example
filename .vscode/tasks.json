@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make an error",
+            "command": "echo",
+            "args": ["blah.js:4:3: warning: your foo is bad"],
+            "problemMatcher": {
+              "fileLocation": ["relative", "${workspaceFolder}"],
+              "pattern": {
+                "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                "file": 1,
+                "line": 2,
+                "column": 3,
+                "severity": 4,
+                "message": 5
+              }
+            }
+          }
+    ]
+}
