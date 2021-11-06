@@ -2,5 +2,8 @@ I'm trying to figure out why nothing appears in my problems panel when I run the
 
 This is defined in '.vscode/tasks.json'.
 
-What am I doing wrong?
+I've followed the documentation here:
+https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+
+But I'm obviously doing something wrong. Any ideas?
 
